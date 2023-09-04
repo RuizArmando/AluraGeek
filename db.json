@@ -1,0 +1,282 @@
+{
+  "videogame": [
+    {
+      "nombre": "Resident Evil IV",
+      "precio": "1190",
+      "imagen": "../assets/img/resident_evil_4_remake.png",
+      "categoria": "Horror",
+      "descripcion": "Remasterización del juego clásico",
+      "codigo": "42jslkf58saoid",
+      "id": "82bc0de5-decb-414d-842b-c72c2b5a2e8c"
+    },
+    {
+      "nombre": "Fortnite",
+      "precio": "0",
+      "imagen": "../assets/img/fortnite.jpg",
+      "categoria": "Juego gratuito",
+      "descripcion": "Juego malo",
+      "codigo": "N/A",
+      "id": "fc197849-2592-4386-9584-c3d465700afc"
+    },
+    {
+      "nombre": "Dead island 2",
+      "precio": "1499",
+      "imagen": "../assets/img/dead island 2.webp",
+      "categoria": "Horror",
+      "descripcion": "L",
+      "codigo": "aad89wmfc",
+      "id": "516007d0-8723-4604-ba1b-3babe0adaf0b"
+    },
+    {
+      "nombre": "Doom Eternal",
+      "precio": "719",
+      "imagen": "../assets/img/doom eternal.jpg",
+      "categoria": "Horror",
+      "descripcion": "El DOOM",
+      "codigo": "554sai9a4",
+      "id": "ea22b323-acae-413e-bd30-b959f1c3b764"
+    },
+    {
+      "nombre": "Destiny 2",
+      "precio": "0",
+      "imagen": "../assets/img/destiny 2.jpg",
+      "categoria": "Juego gratuito",
+      "descripcion": "el destiny",
+      "codigo": "N/A",
+      "id": "ebba76a2-5583-4957-aa3b-9c5cb70873d3"
+    },
+    {
+      "nombre": "Elden ring",
+      "precio": "819",
+      "imagen": "../assets/img/elden ring.jpg",
+      "categoria": "Aventura",
+      "descripcion": "elden",
+      "codigo": "cAH9PtAWdwiqDPi6t3hBZRe4y1R6PEHyA0TnpBkBFweyjEgUQf",
+      "id": "b93ce40f-cdaa-4922-9600-277267ee28ba"
+    },
+    {
+      "nombre": "Fallout 76",
+      "precio": "719",
+      "imagen": "../assets/img/Fallout 76.webp",
+      "categoria": "Shooter",
+      "descripcion": "fall",
+      "codigo": "gLcgU3YVaBYnKfxq2HvEF6uCbQzg69WeXJuAcc7xg3D1wR84v",
+      "id": "dc632e49-04e8-48a4-bf55-54aa4e1d225e"
+    },
+    {
+      "nombre": "Hogwarts legacy",
+      "precio": "699",
+      "imagen": "../assets/img/hogwarts legacy.jpg",
+      "categoria": "Aventura",
+      "descripcion": "harry",
+      "codigo": "C0TEKkT5B7rJf4hxF9xjJdQn7UEgtyfh3fw3qygknFawWjJyVT2saf",
+      "id": "dffcbb5e-c730-4ad2-bca8-49415bac7a2e"
+    },
+    {
+      "nombre": "Hollow Kinght",
+      "precio": "179",
+      "imagen": "../assets/img/Hollow Knight.webp",
+      "categoria": "Aventura",
+      "descripcion": "holl",
+      "codigo": "WahfNdV4bvkkqbznkq9gHkPQdUx3fPdBU4MW7K1BCtx2ugGF5",
+      "id": "62f42c31-3668-4fa3-9c49-46945ed7f819"
+    },
+    {
+      "nombre": "League of legends",
+      "precio": "0",
+      "imagen": "../assets/img/league of legends.jpg",
+      "categoria": "Juego gratuito",
+      "descripcion": "lol",
+      "codigo": "N/A",
+      "id": "4e2a7491-4a4e-4e3f-a248-095adb638bac"
+    },
+    {
+      "nombre": "Outlast",
+      "precio": "228",
+      "imagen": "../assets/img/outlast.jpg",
+      "categoria": "Horror",
+      "descripcion": "out",
+      "codigo": "xCUpqNpbELhiQj2AbDvGvDnvH2kZW4q4bUh8TMpBziNT92fD9s",
+      "id": "a11db98d-a193-4043-a408-63ae7fb1559d"
+    },
+    {
+      "nombre": "Paladins",
+      "precio": "0",
+      "imagen": "../assets/img/paladins.jpg",
+      "categoria": "Juego gratuito",
+      "descripcion": "pala",
+      "codigo": "N/A",
+      "id": "c4db70e0-e851-4706-930a-152b0d15e8f5"
+    },
+    {
+      "nombre": "Red dead redemption 2",
+      "precio": "1299",
+      "imagen": "../assets/img/red dead redemption 2.jpg",
+      "categoria": "Aventura",
+      "descripcion": "red",
+      "codigo": "vtRkCNLx0UYZDJRZZjETvaJ34ktkNJBQqhgaVb6Pgk1jwL7RnVR",
+      "id": "6b73f413-9a09-41fe-84dd-354bc4ca6abd"
+    },
+    {
+      "nombre": "The forest",
+      "precio": "324",
+      "imagen": "../assets/img/the forest.jpg",
+      "categoria": "Horror",
+      "descripcion": "for",
+      "codigo": "7gM64JaB9AGhEny5AUKHLEwfMgk9MuHyaNgAUghtDgzZDuQt",
+      "id": "6e692767-b2a3-4d67-a7fa-dc67c815c67d"
+    },
+    {
+      "nombre": "Warframe",
+      "precio": "0",
+      "imagen": "../assets/img/warframe.jpg",
+      "categoria": "Juego gratuito",
+      "descripcion": "war",
+      "codigo": "N/A",
+      "id": "98140861-d2e5-43e7-8611-27142e6b5301"
+    },
+    {
+      "nombre": "Wold of warships",
+      "precio": "0",
+      "imagen": "../assets/img/World_of_Warships.webp",
+      "categoria": "Juego gratuito",
+      "descripcion": "wow",
+      "codigo": "N/A",
+      "id": "12df351c-863a-4241-b574-da0b7d34c31b"
+    },
+    {
+      "nombre": "Warhammer 40000 Bultgun",
+      "precio": "299",
+      "imagen": "../assets/img/bultgun.jpg",
+      "categoria": "Shooter",
+      "descripcion": "Juego retro de warhammer",
+      "codigo": "ddQLS1a9tQVYwdEU6FUJR193qdkviAR8zCHG57WwkZj5715ee",
+      "id": "16274d53-fd2c-4035-8c7a-a62579aa363e"
+    },
+    {
+      "nombre": "Call of Duty Black OPS 3",
+      "precio": "1299",
+      "imagen": "../assets/img/call of duty black ops 3.jpg",
+      "categoria": "Shooter",
+      "descripcion": "Ya bajale el precio",
+      "codigo": "DDTzQZTK8ARDuDirhgGpuPeAppTphAmUAM0qw1kKp5jSPYtjJ",
+      "id": "ac81f1cf-b5b2-44e0-96fe-eca9426830d6"
+    },
+    {
+      "nombre": "Rust",
+      "precio": "409",
+      "imagen": "../assets/img/rust.jpg",
+      "categoria": "Shooter",
+      "descripcion": "Rust",
+      "codigo": "GVHawmynmLmzAEW1aZCrhSrxK5UWRME6z1Hp3BQfWeFRG",
+      "id": "f098d849-add6-40db-9b1b-22e61fb410dc"
+    },
+    {
+      "nombre": "Hell let loose",
+      "precio": "525",
+      "imagen": "../assets/img/hell let loose.avif",
+      "categoria": "Shooter",
+      "descripcion": "hell",
+      "codigo": "t14MQn8gJHgQUkr45UEHW9awz3H9MuH9Qg4XrcrLTzRa0EEhx",
+      "id": "c99a52da-4deb-4a24-bbd0-245b3223620a"
+    },
+    {
+      "nombre": "Warhammer 40000 Darktide",
+      "precio": "799",
+      "imagen": "../assets/img/darktide.jpg",
+      "categoria": "Shooter",
+      "descripcion": "darktide",
+      "codigo": "bpCYTMFQ07x5QduG3XvjXDCTV6FjRyih8rQ3kqU3zD8NgFK2A",
+      "id": "aa105b04-9f16-4274-a873-63e5e0808951"
+    },
+    {
+      "nombre": "God of war",
+      "precio": "830",
+      "imagen": "../assets/img/god of war.jpg",
+      "categoria": "Aventura",
+      "descripcion": "Kratooooossss",
+      "codigo": "0Z9BMV9yyUfFcSX8wM84bwDGdVCqdrE1WNqZmmL9pckJXmL",
+      "id": "d0fe6125-4ced-4956-ae58-db39d9dfcb44"
+    },
+    {
+      "nombre": "Horizon Zero Dawn",
+      "precio": "830",
+      "imagen": "../assets/img/horizon zero dawn.jpg",
+      "categoria": "Aventura",
+      "descripcion": "Horizon",
+      "codigo": "cB4ccjzqWDANMzHzQL9hkfdK6M6rXQWbf0EuaKJ423ChaXjwBo",
+      "id": "d688ee73-e7a2-4524-9d0d-af49d29fb3f5"
+    },
+    {
+      "nombre": "Left 4 Dead 2",
+      "precio": "124",
+      "imagen": "../assets/img/left 4 dead 2.jpg",
+      "categoria": "Horror",
+      "descripcion": "Para cuando el 3?",
+      "codigo": "T0KegD3AMUShBtxaigcHyypyg1kXeBeazaYaWvbJbzFBg90x5kU",
+      "id": "56451b09-5cf5-4631-8f0a-3b6fb2ab3d4c"
+    },
+    {
+      "nombre": "Anno 1800",
+      "precio": "1199",
+      "imagen": "../assets/img/anno 1800.png",
+      "categoria": "Estrategia",
+      "descripcion": "Ultima entrega de la saga Anno",
+      "codigo": "QprFgEhNQ6GVf1DqENBKn6rVEB88AbFWSQf6kteruBvSSh2mn",
+      "id": "c260a999-8603-4b3b-97f2-6163436ed498"
+    },
+    {
+      "nombre": "Civilization VI",
+      "precio": "599",
+      "imagen": "../assets/img/civilization vi.jpg",
+      "categoria": "Estrategia",
+      "descripcion": "Civilization",
+      "codigo": "h1AfmRDBgcXrVZeyS4JaERUkY0zZ2wDZ5hY84B2rSQmeP8Xju",
+      "id": "d17f6568-7b79-488c-b34e-78ee950e370c"
+    },
+    {
+      "nombre": "Hearts of Iron IV",
+      "precio": "459",
+      "imagen": "../assets/img/hearts of iron iv.jpg",
+      "categoria": "Estrategia",
+      "descripcion": "estrategia",
+      "codigo": "hG59bGnwdPu4Cc9RUJjM0rbht0WX1Rjz46fG9FhtWxaYjx6V6Ik8",
+      "id": "01506d10-a16e-4ba1-830d-d530c8bba60f"
+    },
+    {
+      "nombre": "Cities Skylines",
+      "precio": "359",
+      "imagen": "../assets/img/Cities skylines.jpg",
+      "categoria": "Estrategia",
+      "descripcion": "Cities",
+      "codigo": "8RvrSZ2ikTNtVa1ZTkxgn7Eg3Zh1Fqba7k5Xn2hqRKM6K2w9Ae8",
+      "id": "9f6d4e09-b151-41c5-b4bf-e66b450474b6"
+    },
+    {
+      "nombre": "Stellaris",
+      "precio": "459",
+      "imagen": "../assets/img/stellaris.jpg",
+      "categoria": "Estrategia",
+      "descripcion": "Estrategia espacial",
+      "codigo": "VL2ZrV5iPiKwCYczytCzGqytm9a0uQWGmrMCKcY6aUGwETL4j",
+      "id": "f6e46209-a431-414e-ad55-7c6339836ed3"
+    },
+    {
+      "nombre": "Europa Universalis IV",
+      "precio": "459",
+      "imagen": "../assets/img/europa universalis iv.jpg",
+      "categoria": "Estrategia",
+      "descripcion": "Saga Europa Universalis",
+      "codigo": "Jh6Lrvdd93HVg5AS23X8mJPx4HPk2Sw4VgeikjzEgdnZE3VdrK5",
+      "id": "2ea3abe3-5f38-4e49-b03e-b93ffb7972ae"
+    }
+  ],
+  "usuario": [
+    {
+      "nombre": "Admin",
+      "email": "admin@gmail.com",
+      "password": "santosbacalaos",
+      "id": 1
+    }
+  ]
+}

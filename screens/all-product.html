@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de videojuegos | Admin</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Archivos css-->
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/bases.css">
+    <link rel="stylesheet" href="../assets/css/header/menu.css">
+    <link rel="stylesheet" href="../assets/css/main/all-products-category.css">
+    <link rel="stylesheet" href="../assets/css/main/search.css">
+    <link rel="stylesheet" href="../assets/css/footer/rodapie.css">
+    <link rel="stylesheet" href="../assets/css/footer/credits.css">
+</head>
+<body>
+    <header data-header>
+    </header>
+    <main>
+        <section class="search">
+            <label class="search__label">Escriba el nombre del videojuego que busca</label>
+            <input class="search__input" type="search" name="search__name" id="search__input">
+        </section>
+        <section class="returne">
+            <div class="videogame__category">
+                <nav class="videogame__nav" data-search></nav>
+            </div>
+        </section>
+        <section class="videogame" data-videogame>
+            <h1 class="videogame__title">Todos los videojuegos</h1>
+            <div class="videogame__category">
+                <h2 class="videogame__subtitle">Juegos gratuitos</h2>
+                <nav class="videogame__nav" data-gratuito></nav>
+            </div>
+            <div class="videogame__category">
+                <h2 class="videogame__subtitle">Juegos de estrategia</h2>
+                <nav class="videogame__nav" data-estrategia></nav>
+            </div>
+            <div class="videogame__category">
+                <h2 class="videogame__subtitle">Juegos de Horror</h2>
+                <nav class="videogame__nav" data-horror></nav>
+            </div>
+            <div class="videogame__category">
+                <h2 class="videogame__subtitle">Juegos de avantura</h2>
+                <nav class="videogame__nav" data-aventura></nav>
+            </div>
+            <div class="videogame__category">
+                <h2 class="videogame__subtitle">Juegos shooter</h2>
+                <nav class="videogame__nav" data-shooter></nav>
+            </div>
+        </section>
+    </main>
+    <footer data-footer>
+    </footer>
+    <script src="../assets/js/header/header.js"></script>
+    <script src="../assets/js/footer/footer.js"></script>
+    <script src="../assets/js/dark-mode-menu.js"></script>
+    <script src="../assets/js/validar-contacto.js"></script>
+    <script src="../assets/js/main/viewElement.js"></script>
+    <script type="module" src="../controllers/search.controller.js"></script>
+    <script type="module" src="../controllers/category.controller.js"></script>
+</body>
+</html>

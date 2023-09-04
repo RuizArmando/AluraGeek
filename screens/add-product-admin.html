@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuevo videojuego | AluraGeek</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Archivos css-->
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/bases.css">
+    <link rel="stylesheet" href="../assets/css/header/menu.css">
+    <link rel="stylesheet" href="../assets/css/main/product.css">
+    <link rel="stylesheet" href="../assets/css/main/messange.css">
+    <link rel="stylesheet" href="../assets/css/footer/rodapie.css">
+    <link rel="stylesheet" href="../assets/css/footer/credits.css">
+</head>
+<body>
+    <header data-admin>
+    </header>
+    <main>
+        <section class="product">
+            <form data-form>
+                <div class="product__conteiner">
+                    <h1 class="product__title">Agregar nuevo videojuego</h1>
+                    <label>Imagen del videojuego</label>
+                    <input type="text" class="product__date" id="product__date">
+                    <label>Seleccione las categorias del videojuego</label>
+                    <div class="product__catalogy">
+                        <select class="product__opction" id="product__opction">
+                            <option>Juego gratuito</option>
+                            <option>Estrategia</option>
+                            <option>Horror</option>
+                            <option>Aventura</option>
+                            <option>Shooter</option>
+                        </select>
+                    </div>
+                    <label>Nombre videojuego</label>
+                    <input type="text" class="product__date" id="nombre">
+                    <label>Precio del videojuego</label>
+                    <input type="number" class="product__date" id="precio" value="0" disabled>
+                    <label>Codigo del videojuego</label>
+                    <input type="text" class="product__date" id="codigo" value="N/A" disabled>
+                    <label>Descripcion del videojuego</label>
+                    <textarea id="descripcion"></textarea>
+                    <input type="submit" class="enviar" value="Agregar videojuego">
+                </div>
+                <span class="messange" id="messange">El videojuego se agrego con exito</span>
+            </form>
+        </section>
+    </main>
+    <footer data-footer>
+    </footer>
+    <script src="../assets/js/header/header.js"></script>
+    <script src="../assets/js/footer/footer.js"></script>
+    <script src="../assets/js/validar-contacto.js"></script>
+    <script src="../assets/js/dark-mode-menu.js"></script>
+    <script src="../assets/js/main/viewElement.js"></script>
+    <script src="../assets/js/main/validar-form-videojuego.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="../controllers/add.videogame.controller.js"></script>
+</body>
+</html>

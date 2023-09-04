@@ -1,0 +1,83 @@
+.videogame{
+    background-color: var(--fondo);
+    color: var(--color-letras);
+    padding: 2%;
+}
+
+.search{
+    background-color: var(--fondo);
+    color: var(--color-letras);
+}
+
+.returne{
+    background-color: var(--fondo);
+    color: var(--color-letras);
+}
+
+.videogame__error{
+    margin-top: 12px;
+    min-width: 350px;
+}
+
+.videogame__add{
+    width: 160px;
+    height: 48px;
+    cursor: pointer;
+    background-color: var(--color-boton);
+    border-style: none;
+    color: white;
+    transition: .75s;
+}
+
+.videogame__add:hover{
+    background-color: var(--color-boton-segundo);
+}
+
+.videogame__title{
+    font-size: 32px;
+    color: var(--titulos);
+}
+
+.videogame__subtitle{
+    margin-top: 12px;
+    font-size: 24px;
+    color: var(--titulos);
+}
+
+.videogame__nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.videogame__box{
+    height: 14rem;
+    margin-top: 10px;
+    background-color: var(--fondo-box);
+    color: var(--letras-box);
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.videogame__img{
+    width: 8rem;
+    height: 8rem;
+}
+
+.videogame__cost{
+    font-size: 18px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.videogame__link{
+    text-decoration: none;
+    background-color: var(--fuente-enlace);
+    padding: 6px;
+}
+
+.videogame__link{
+    background-color: var(--fuente-encale-dos);
+    transition: .75s;
+}

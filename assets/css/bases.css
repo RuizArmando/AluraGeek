@@ -1,0 +1,33 @@
+:root {
+    --fondo: #FFFFFF;
+    --color-letras: #000000;
+    --color-letras-blancas: #FFFFFF;
+    --titulos: #0F1EF0;
+    --fondo-box: #FFFFFF;
+    --letras-box: #000000;
+    --color-boton: #2A7AE4;
+    --color-boton-segundo: #1E5EB1;
+    --color-boton-alternativo:#730B92;
+
+    --input-ok: #1ED12D;
+    --input-falle: #B72E2E;
+    
+    --fuente-enlace: #F6B025;
+    --fuente-encale-dos: #F5BE0B;
+
+    --Fuente: 'Titillium Web', sans-serif;
+}
+
+.dark {
+    --fondo: #000000;
+    --color-letras: #FFFFFF;
+    --titulos: #5C0BF1;
+    --fondo-box: #000000;
+    --letras-box: #FFFFFF;
+    cursor: default;
+}
+
+body{
+    font-family: var(--Fuente);
+    cursor: default;
+}

@@ -1,0 +1,12 @@
+.search{
+    padding-top: 12px;
+}
+
+.search__label{
+    font-size: 18px;
+}
+
+.search__input{
+    width: 320px;
+    height: 32px;
+}
