@@ -64,11 +64,19 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
+    .free__box{
+        margin: 10px 150px 10px 150px
+    }
+    .free__all{
+        margin-right: 6vh;
+    }
 }
 
-@media screen and (max-width: 800px) {
-    .free__nav{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+@media screen and (max-width: 600px) {
+    .free__box{
+        margin: 10px 100px 10px 100px;
+    }
+    .free__all{
+        margin-right: -40vh;
     }
 }

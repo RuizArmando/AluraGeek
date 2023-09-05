@@ -136,34 +136,27 @@
 
 @media screen and (max-width: 1190px) {
     .rodapie__container{
-        display: flex;
-        justify-content: space-between;
-        padding: 75px;
+        margin: 10px 120px 10px 120px;
+    }
+    .rodapie__nav{
+        padding: 10px 50px 10px 50px;
     }
     .rodapie__input input{
         margin-top: .75rem;
         margin-bottom: .75rem;
-        width: 25rem;
+        width: 30rem;
     }
     .rodapie__input textarea{
         margin-top: .75rem;
-        width: 25rem;
+        width: 30rem;
     }
 }
 
 @media screen and (max-width: 480px) {
-    .rodapie__container{
-        display: flex;
-        justify-content: space-between;
-        padding: 75px;
-    }
     .rodapie__input input{
-        margin-top: .75rem;
-        margin-bottom: .75rem;
-        width: 5rem;
+        width: 20rem;
     }
     .rodapie__input textarea{
-        margin-top: .75rem;
-        width: 5rem;
+        width: 20rem;
     }
 }

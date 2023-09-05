@@ -49,14 +49,36 @@
 @media screen and (max-width: 1190px) {
     .menu__search{
         width: 15rem;
-        height: 1.5rem;
+        height: 2.5rem;
         margin-top: .5vw;
     }
     .menu__login{
         width: 5rem;
         height: 2rem;
         margin-top: .5vw;
-        margin-left: 15rem;
+        margin-left: 36rem;
+    }
+    #dark-mode{
+        color: rebeccapurple;
+        cursor: pointer;
+        margin-top: .8vw;
+        margin-left: 2rem;
+        font-size: 1.55rem;
+    
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .menu__search{
+        width: 6rem;
+        height: 2.5rem;
+        margin-top: .5vw;
+    }
+    .menu__login{
+        width: 6rem;
+        height: 2rem;
+        margin-top: .5vw;
+        margin-left: 36rem;
     }
     #dark-mode{
         color: rebeccapurple;

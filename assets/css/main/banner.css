@@ -37,10 +37,10 @@
     transition: .75s;
 }
 
-@media screen and (max-width: 1190px) {
+@media screen and (max-width: 1156px) {
     .banner{
-        width: 1190px;
-        height: 400px;
+        width: 75rem;
+        height: 20rem;
     }
 
     .banner__title{
@@ -52,9 +52,9 @@
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 964px) {
     .banner{
-        width: 800px;
-        height: 400px;
+        width: 72rem;
+        height: 22rem;
     }
 }
