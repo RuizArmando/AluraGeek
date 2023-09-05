@@ -3,6 +3,7 @@ import { clientServices } from "../service/client-service.js";
 function searchStar(){
     let searchInput = document.getElementById('search__input');
 
+    //Cada que se escribe algo en la barra de busqueda se manda a llamar el metodo
     searchInput.addEventListener('keyup', searchValue);
     searchInput.addEventListener('blur', searchValue);
 }
@@ -19,6 +20,7 @@ let searchValue = () =>{
     }else{
         game.style.display = 'none';
         eliminarListado(table);
+        //Muestra todos los resultados que coincidan con la busqueda
         clientServices.listVideoGame().then((data) => {
             data.forEach((videogame) =>{
                 if(videogame.nombre.toLowerCase().includes(searchInput.value.toLowerCase())){

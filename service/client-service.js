@@ -1,12 +1,12 @@
 //Devuelve todos los videojuegos
-const listVideoGame = () => fetch("http://localhost:3000/videogame").then((respuesta) => respuesta.json());
+const listVideoGame = () => fetch("https://fake-api-silk.vercel.app/videogame").then((respuesta) => respuesta.json());
 
 //Devuelve todos los usuarios
-const listUsuario = () => fetch("http://localhost:3000/usuario").then((respuesta) => respuesta.json());
+const listUsuario = () => fetch("https://fake-api-silk.vercel.app/usuario").then((respuesta) => respuesta.json());
 
 //Agrega un nuevo vidiojuego a la db
 const addVideoGame = (nombre, precio, imagen, categoria, descripcion, codigo) => {
-  return fetch("http://localhost:3000/videogame", {
+  return fetch("https://fake-api-silk.vercel.app/videogame", {
     method: "POST",
     headers:{
       "Content-Type": "application/json" 
@@ -17,24 +17,24 @@ const addVideoGame = (nombre, precio, imagen, categoria, descripcion, codigo) =>
 
 //Borra el videojuego
 const deleteVideoGame = (id) =>{
-  return fetch(`http://localhost:3000/videogame/${id}`,{
+  return fetch(`https://fake-api-silk.vercel.app/videogame/${id}`,{
     method: "DELETE",
   });
 };
 
 //Consultar vidiojuego
 const detalleVideogame = (id) => {
-  return fetch(`http://localhost:3000/videogame/${id}`).then((respuesta) => respuesta.json());
+  return fetch(`https://fake-api-silk.vercel.app/videogame/${id}`).then((respuesta) => respuesta.json());
 };
 
 //Consultar vidiojuego
 const buscarVideogame = (nombre) => {
-  return fetch(`http://localhost:3000/videogame/${nombre}`).then((respuesta) => respuesta.json());
+  return fetch(`https://fake-api-silk.vercel.app/videogame/${nombre}`).then((respuesta) => respuesta.json());
 };
 
 //Actualizar videojuego
 const actualizarVideojuego = (nombre, precio, imagen, categoria, descripcion, codigo, id) => {
-  return fetch(`http://localhost:3000/videogame/${id}`, {
+  return fetch(`https://fake-api-silk.vercel.app/videogame/${id}`, {
     method: "PUT",
     headers: {
       "Content-Type": "application/json",
