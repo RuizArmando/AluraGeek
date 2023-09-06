@@ -1,5 +1,5 @@
 function viewOffert(){
-    window.open('/screens/all-offer.html', '_self');
+    window.open('screens/all-offer.html', '_self');
 }
 
 function AddVideogame(){
