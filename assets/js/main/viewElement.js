@@ -7,13 +7,13 @@ function AddVideogame(){
 }
 
 function ViewLoadin(){
-    window.open('/screens/login.html', '_self');
+    window.open('screens/login.html', '_self');
 }
 
 function FinishLogin(){
-    window.open('/index.html', '_self');
+    window.open('index.html', '_self');
 }
 
 function search(){
-    window.open('/screens/all-product.html', '_self');
+    window.open('screens/all-product.html', '_self');
 }
