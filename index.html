@@ -58,9 +58,46 @@
             </nav>
         </section>
     </main>
-    <footer data-footer>
+    <footer>
+        <section class="rodapie">
+            <div class="rodapie__container">
+                <img src="assets/img/Logo.png" class="rodapie__logo">
+                <nav class="rodapie__nav">
+                    <ul class="rodapie__box">
+                        <li><a href="#">Quienes somos</a></li>
+                        <li><a href="#">Politica de privacidad</a></li>
+                        <li><a href="#">Programa de fidelidad</a></li>
+                        <li><a href="#">Nuestras tiendas</a></li>
+                        <li><a href="#">Quiero ser franquicia</a></li>
+                        <li><a href="#">Anunciate aqui</a></li>
+                    </ul>
+                </nav>
+                <form id="rodapie__form" action="https://formsubmit.co/357e6d082d98099bf80857274ab077a0" method="POST">
+                    <div class="rodapie__from">
+                        <div class="rodapie__input" id="input__name">
+                            <label for="name">Nombre completo</label>
+                            <input name="name" type="text" id="name" required>
+                            <p class="rodapie__value">Favor de igresar su nombre completo, maximo 40 caracteres, solo letras mayusculas y minusculas</p>
+                        </div>
+                        <div class="rodapie__input" id="input__description">
+                            <label for="description" id="rodapie__description">Escribe tu mensaje</label>
+                            <textarea name="description" id="description" required></textarea>
+                            <p class="rodapie__value">Favor de igresar un mensaje en este campo, maximo 120 caracteres</p>
+                        </div>
+                    </div>
+                    <div class="btn">
+                        <input type="submit" class="envio" value="Enviar Mensaje">
+                        <input type="hidden" name="_next" value="https://ruizarmando.github.io/AluraGeek/">
+                        <input type="hidden" name="_captcha" value="false">
+                    </div>
+                </form>
+            </div>
+        </section>
+        <section class="credits">
+            <p>Desarrollado por Armando Ruiz Gutierrez</p>
+             <p>2023</p>
+        </section>
     </footer>
-    <script src="assets/js/footer/footer.js"></script>
     <script src="assets/js/dark-mode-menu.js"></script>
     <script src="assets/js/validar-contacto.js"></script>
     <script src="assets/js/main/viewElement.js"></script>
