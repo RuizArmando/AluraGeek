@@ -5,7 +5,7 @@ const mensajeBorrado = () => {
     const id = url.searchParams.get("id");
 
     if(id == null){
-        window.open(`../screens/error.html=?${id}`, "_self")
+        window.open(`../screens/error.html`, "_self")
     }
 
     clientServices.deleteVideoGame(id).then((respuesta) =>{

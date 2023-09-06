@@ -14,7 +14,7 @@ function validarUsuario(){
             if((usuario.email == Email) && (usuario.password == Password)){
                 window.open('../screens/all-products-admin.html', '_self');
             }else{
-                alert("Nel, quien es usted perro?");
+                alert("Acceso denegado");
             }
         })
     });

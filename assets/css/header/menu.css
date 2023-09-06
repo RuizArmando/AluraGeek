@@ -47,6 +47,9 @@
 }
 
 @media screen and (max-width: 1190px) {
+    .menu{
+        width: 1190px;
+    }
     .menu__search{
         width: 15rem;
         height: 2.5rem;
@@ -69,6 +72,9 @@
 }
 
 @media screen and (max-width: 600px) {
+    .menu{
+        width: 600px;
+    }
     .menu__search{
         width: 6rem;
         height: 2.5rem;

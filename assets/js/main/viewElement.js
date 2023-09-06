@@ -11,7 +11,7 @@ function ViewLoadin(){
 }
 
 function FinishLogin(){
-    window.open('./index.html', '_self');
+    window.open('/index.html', '_self');
 }
 
 function search(){

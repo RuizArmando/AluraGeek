@@ -9,9 +9,16 @@ const agregarJuego = (imagen, nombre, precio, id) =>{
   let contenido = `
   <li><img class="videogame__img" src="${imagen}"></li>
   <li class="videogame__name">${nombre}</li>
-  <li class="videogame__cost">$${precio}</li>
-  <a href="../screens/product.html?id=${id}" class="videogame__link">Ver Producto</a>
   `;
+  if(precio == 0){
+    contenido = contenido + `
+    <li class="videogame__cost">Juego gratuito</li>
+    <a href="../screens/product.html?id=${id}" class="videogame__link">Ver Producto</a>`;
+  }else{
+    contenido = contenido + `
+    <li class="videogame__cost">$${precio}</li>
+    <a href="../screens/product.html?id=${id}" class="videogame__link">Ver Producto</a>`;
+  }
   linea.classList.add('videogame__box');
   linea.innerHTML = contenido;
   return linea;
@@ -20,7 +27,7 @@ const agregarJuego = (imagen, nombre, precio, id) =>{
 const usoCategoria = () =>{
   let line = document.createElement("section");
   let con = ""
-  if(ide == "Juegos gratuitos"){
+  if(ide.includes("Juego")){
     con = `
     <h1 class="videogame__title">${ide}</h1>
     <div class="videogame__category">

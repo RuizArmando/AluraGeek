@@ -39,8 +39,8 @@
 
 @media screen and (max-width: 1156px) {
     .banner{
-        width: 75rem;
-        height: 20rem;
+        width: 74.4rem;
+        height: 24rem;
     }
 
     .banner__title{
@@ -49,12 +49,5 @@
 
     .banner__description{
         font-size: 2vh;
-    }
-}
-
-@media screen and (max-width: 964px) {
-    .banner{
-        width: 72rem;
-        height: 22rem;
     }
 }

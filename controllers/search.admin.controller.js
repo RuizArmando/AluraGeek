@@ -86,7 +86,7 @@ function listado(nombre, precio, imagen, categoria, id){
     }else{
       contenido = contenido + `<li class="videogame__cost">$${precio}</li>`
     }
-    contenido = contenido + `<a href="../screens/product.html?id=${id}" class="videogame__link">Ver Producto</a>`;
+    contenido = contenido + `<a href="../screens/product-admin.html?id=${id}" class="videogame__link">Ver Producto</a>`;
     linea.classList.add('videogame__box');
     linea.innerHTML = contenido;
     return linea;

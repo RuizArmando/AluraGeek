@@ -12,11 +12,11 @@ const agregarJuego = (imagen, nombre, precio, id) =>{;
   if(precio == "Juego gratuito"){
     contenido = contenido + `
     <li class="videogame__cost">Juego gratuito</li>
-    <a href="../screens/product.html?id=${id}" class="videogame__link">Ver Producto</a>`;
+    <a href="../screens/product-admin.html?id=${id}" class="videogame__link">Ver Producto</a>`;
   }else{
     contenido = contenido + `
     <li class="videogame__cost">$${precio}</li>
-    <a href="../screens/product.html?id=${id}" class="videogame__link">Ver Producto</a>`;
+    <a href="../screens/product-admin.html?id=${id}" class="videogame__link">Ver Producto</a>`;
   }
   linea.classList.add('videogame__box');
   linea.innerHTML = contenido;

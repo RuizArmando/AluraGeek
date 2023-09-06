@@ -135,8 +135,8 @@
 }
 
 @media screen and (max-width: 1190px) {
-    .rodapie__container{
-        margin: 10px 120px 10px 120px;
+    .rodapie{
+        width: 74.4rem;
     }
     .rodapie__nav{
         padding: 10px 50px 10px 50px;

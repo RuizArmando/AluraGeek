@@ -52,16 +52,3 @@ export const clientServices = {
   actualizarVideojuego,
   buscarVideogame
 };
-
-/*
-,
-    {
-      "nombre": "Fornite",
-      "precio": "0",
-      "imagen": "../assets/img/fortnite.jpg",
-      "categoria": "Juego gratuito",
-      "descripcion": "Juego shooter",
-      "codigo": "0",
-      "id": "e23fb5a0-d446-4082-8b98-93d7ec4a5d4b"
-    }
-*/

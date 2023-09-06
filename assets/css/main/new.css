@@ -59,6 +59,9 @@
 }
 
 @media screen and (max-width: 1190px) {
+    .new{
+        width: 74.4rem;
+    }
     .new__nav{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
