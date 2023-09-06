@@ -18,7 +18,14 @@
     <link rel="stylesheet" href="assets/css/footer/credits.css">
 </head>
 <body>
-    <header data-header>
+    <header>
+        <section class="menu">
+            <a href="index.html"><img src="assets/img/Logo.png" class="menu__icono"></a>
+            <button class="menu__search" onclick="search()"><i class="fa-solid fa-magnifying-glass"></i> Buscar videojuego</button>
+            <button class="menu__login" onclick="ViewLoadin()">Login</button>
+            <label for="toggle" id="dark-mode"><i class="fa-solid fa-moon"></i></label>
+            <input type="checkbox" id="toggle">
+        </section>
     </header>
     <main id="main">
         <section class="banner">
@@ -53,7 +60,6 @@
     </main>
     <footer data-footer>
     </footer>
-    <script src="assets/js/header/header.js"></script>
     <script src="assets/js/footer/footer.js"></script>
     <script src="assets/js/dark-mode-menu.js"></script>
     <script src="assets/js/validar-contacto.js"></script>

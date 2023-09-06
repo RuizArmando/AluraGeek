@@ -3,7 +3,7 @@ function star(){
     if(headerUser != null){
         const lineaUser = document.createElement("section");
         const contenidoUser = `
-        <a href="index.html"><img src="assets/img/Logo.png" class="menu__icono"></a>
+        <a href="/index.html"><img src="/assets/img/Logo.png" class="menu__icono"></a>
         <button class="menu__search" onclick="search()"><i class="fa-solid fa-magnifying-glass"></i> Buscar videojuego</button>
         <button class="menu__login" onclick="ViewLoadin()">Login</button>
         <label for="toggle" id="dark-mode"><i class="fa-solid fa-moon"></i></label>
