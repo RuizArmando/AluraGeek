@@ -60,7 +60,7 @@
 
 @media screen and (max-width: 1190px) {
     .new{
-        width: 74.4rem;
+        width: 1143px;
     }
     .new__nav{
         display: grid;
@@ -79,6 +79,6 @@
         margin: 10px 100px 10px 100px;
     }
     .new__all{
-        margin-right: -40vh;
+        margin-right: 16vh;
     }
 }

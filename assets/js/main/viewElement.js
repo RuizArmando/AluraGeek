@@ -7,7 +7,7 @@ function AddVideogame(){
 }
 
 function ViewLoadin(){
-    window.open('screens/login.html', '_self');
+    window.open('login.html', '_self');
 }
 
 function FinishLogin(){
@@ -15,5 +15,13 @@ function FinishLogin(){
 }
 
 function search(){
+    window.open('all-product.html', '_self');
+}
+
+function ViewLoadinIndex(){
+    window.open('screens/login.html', '_self');
+}
+
+function searchIndex(){
     window.open('screens/all-product.html', '_self');
 }

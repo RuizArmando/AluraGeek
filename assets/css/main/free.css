@@ -61,7 +61,7 @@
 
 @media screen and (max-width: 1190px) {
     .free{
-        width: 74.4rem;
+        width: 1143px;
     }
     .free__nav{
         display: grid;
@@ -80,6 +80,6 @@
         margin: 10px 100px 10px 100px;
     }
     .free__all{
-        margin-right: -40vh;
+        margin-right: 16vh;
     }
 }
