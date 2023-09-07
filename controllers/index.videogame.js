@@ -17,7 +17,7 @@ const agregarJuego = (nombre, precio, imagen, categoria, id, etiqueta) =>{
     `;
   }
     contenido = contenido + `
-    <a href="../screens/product.html?id=${id}" class="${etiqueta}__link">Ver producto</a>`;
+    <a href="screens/product.html?id=${id}" class="${etiqueta}__link">Ver producto</a>`;
     linea.classList.add(`${etiqueta}__box`);
     linea.innerHTML = contenido;
     return linea;
