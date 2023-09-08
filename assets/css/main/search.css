@@ -1,9 +1,11 @@
 .search{
     padding-top: 12px;
+    background-color: var(--fondo);
 }
 
 .search__label{
     font-size: 18px;
+    color: var(--color-letras);
 }
 
 .search__input{
@@ -11,9 +13,16 @@
     height: 32px;
 }
 
+.returne{
+    background-color: var(--fondo);
+    color: var(--color-letras);
+}
+
 @media screen and (max-width: 1190px) {
     .search{
         width: 1143px;
     }
-    
+    .returne{
+        width: 1143px;
+    }
 }

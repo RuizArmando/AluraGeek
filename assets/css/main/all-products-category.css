@@ -4,16 +4,6 @@
     padding: 2%;
 }
 
-.search{
-    background-color: var(--fondo);
-    color: var(--color-letras);
-}
-
-.returne{
-    background-color: var(--fondo);
-    color: var(--color-letras);
-}
-
 .videogame__error{
     margin-top: 12px;
     min-width: 350px;
@@ -86,8 +76,5 @@
     .videogame{
         width: 1143px;
         padding: 0;
-    }
-    .returne{
-        width: 1143px;
     }
 }

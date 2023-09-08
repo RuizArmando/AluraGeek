@@ -58,3 +58,9 @@
 .enviar:hover{
     background-color: var(--color-boton-segundo);
 }
+
+@media screen and (max-width: 1190px) {
+    .product{
+        width: 1143px;
+    }
+}
