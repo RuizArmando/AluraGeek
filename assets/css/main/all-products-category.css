@@ -81,3 +81,13 @@
     background-color: var(--fuente-encale-dos);
     transition: .75s;
 }
+
+@media screen and (max-width: 1190px) {
+    .videogame{
+        width: 1143px;
+        padding: 0;
+    }
+    .returne{
+        width: 1143px;
+    }
+}
