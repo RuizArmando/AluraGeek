@@ -3,7 +3,7 @@ function viewOffert(){
 }
 
 function AddVideogame(){
-    window.open('/screens/add-product-admin.html', '_self');
+    window.open('add-product-admin.html', '_self');
 }
 
 function ViewLoadin(){
