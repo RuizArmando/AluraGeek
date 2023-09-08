@@ -77,12 +77,6 @@
 
 @media screen and (max-width: 1190px) {
     .login{
-        width: 1190px;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .login{
-        width: 600px;
+        width: 964px;
     }
 }

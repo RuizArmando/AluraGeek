@@ -11,5 +11,7 @@
 @media (min-width: 1190px){
     .credits{
         margin-left: 16%;
+        max-width: 1190px;
+        width: 786px;
     }
 }
