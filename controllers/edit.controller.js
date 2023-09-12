@@ -2,7 +2,7 @@ import { clientServices } from "../service/client-service.js";
 
 const formulario = document.querySelector('[data-form]');
 
-const toastr = document.getElementById("messange");
+//const toastr = document.getElementById("messange");
 
 function obtenerInformacion(){
     const url = new URL(window.location);
@@ -50,11 +50,17 @@ formulario.addEventListener('submit', (event) =>{
         descripcion: document.getElementById('descripcion').value,
         codigo: document.getElementById('codigo').value
     }
-    clientServices.actualizarVideojuego(game.nombre, game.precio, game.imagen, game.categoria, game.descripcion, game.codigo, id)
-    openToastr();
-})
+    clientServices.actualizarVideojuego(game.nombre, game.precio, game.imagen, game.categoria, game.descripcion, game.codigo, id).then(() => {
+        mensaje();
+    })
+    //openToastr();
+});
 
-const openToastr = () => {
+function mensaje(){
+    window.open('../screens/message.edit.html', '_self');
+}
+
+/*const openToastr = () => {
     toastr.style.display = 'flex';
 
     closeToastr();
@@ -64,4 +70,4 @@ const closeToastr = () => {
     setTimeout(()=> {
         toastr.style.display = 'none';
     }, 3500)
-}
+}*/

@@ -25,3 +25,7 @@ function ViewLoadinIndex(){
 function searchIndex(){
     window.open('screens/all-product.html', '_self');
 }
+
+function viewProductsAdmin(){
+    window.open('./all-products-admin.html', '_self');
+}
